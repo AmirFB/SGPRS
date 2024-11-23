@@ -1,0 +1,3 @@
+# nsys profile -w true --trace=cuda,nvtx,osrt,cudnn,cublas,opengl,openacc,openmp,mpi,vulkan -s cpu --stats=true --cudabacktrace=true --cuda-memory-usage=true --gpu-metrics-device=0 --gpu-metrics-set=0 --gpu-metrics-frequency=20000 python count.py
+
+nsys profile -w true --trace=cuda,nvtx,osrt,cudnn,cublas,opengl,openacc,openmp,mpi,vulkan -s cpu --stats=true --cudabacktrace=true --cuda-memory-usage=true --gpu-metrics-device=0 --gpu-metrics-set=0 --gpu-metrics-frequency=20000 python count.py

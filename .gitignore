@@ -1,0 +1,11 @@
+build
+libtorch-build
+libtorch-build2
+libtorch-build3
+libtorch-install
+libtorch-install2
+logs
+results
+*.nsys-rep
+*.sqlite
+*.qdstrm
